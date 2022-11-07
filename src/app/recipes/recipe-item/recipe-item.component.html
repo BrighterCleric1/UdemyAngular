@@ -1,0 +1,9 @@
+<a (click)="ShowDetails()" class="list-group-item" style="cursor: pointer;">
+    <div class="float-start">
+        <h4 class="mb-1">{{recipe.name}}</h4>
+        <p class="">{{recipe.description}}</p>
+    </div>
+    <div class="float-end">
+        <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="figure-img" style="max-height:50px;">
+    </div>
+</a>
